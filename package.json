@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend for a little personal site or blog",
+  "author": "Cole Hollant",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "serve": "nuxt serve",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "ready": "nuxt build && nuxt export"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.10.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.4",
+    "@nuxt/babel-preset-app": "^2.13.3",
+    "@nuxt/content": "^1.4.1",
+    "@nuxtjs/axios": "^5.11.0",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "luxon": "^1.24.1",
+    "nuxt": "^2.13.0",
+    "nuxt-composition-api": "^0.10.3",
+    "vue-click-outside": "^1.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^2.0.0",
+    "babel-core": "^6.26.3"
+  }
+}
