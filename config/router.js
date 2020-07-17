@@ -3,6 +3,12 @@ export default {
     color: '#644664'
   },
   router: {
-    base: '/'
+    base: '/',
+    extendRoutes (routes, resolve) {
+      routes.push({
+        path: '/:section/:post',
+        component: '~/pages/_slug.vue'
+      })
+    }
   }
 }
