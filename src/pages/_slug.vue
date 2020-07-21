@@ -42,12 +42,19 @@ export default {
     }
   },
   async asyncData({ $content, params}) {
+    // these are the folders in /src/content
     const sections = {
       base: {
         title: 'Base',
         color: '#041ca0',
         href: require('~/assets/box-bg-2.gif'),
         content: await $content('').sortBy('updatedAt').fetch(),
+      },
+      newThing: {
+        title: 'New Thing',
+        color: '#041ca0',
+        href: "https://image.shutterstock.com/image-photo/white-transparent-leaf-on-mirror-260nw-577160911.jpg",
+        content: await $content('new-thing').sortBy('updatedAt').fetch(),
       },
       aboutMe: {
         title: 'About Me',
