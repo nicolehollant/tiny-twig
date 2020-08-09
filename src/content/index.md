@@ -12,6 +12,8 @@ updatedAt: 7/16/20
 ### Subsubtitle 
 <!-- <h3>Subsubtitle</h3> -->
 
+This is a [link to a guide](/guide-for-frances)
+
 You can write _in italics_, *another way to do italics*, **bold**, ~~strikethrough~~, [link](https://youthful-ritchie-91079d.netlify.app/), ![alt text goes here](https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg)
 
 this is some test content for Frances
