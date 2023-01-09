@@ -20,7 +20,7 @@
     "@nuxtjs/axios": "^5.11.0",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
-    "luxon": "^1.24.1",
+    "luxon": "^1.28.1",
     "nuxt": "^2.13.0",
     "nuxt-composition-api": "^0.10.3",
     "vue-click-outside": "^1.1.0"
